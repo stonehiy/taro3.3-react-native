@@ -26,9 +26,9 @@ if(process.env.TARO_ENV === 'rn'){
 
 export default {
   pages: [
-
     'pages/index/index',
-    'pages/other/other'
+    'pages/other/other',
+    'pages/demo/demo',
 
   ],
   window: {
@@ -43,16 +43,16 @@ export default {
     list: [
 
       {
-        iconPath: './assets/icon/user.png',
-        selectedIconPath: './assets/icon/user_selected.png',
-        pagePath: 'pages/other/other',
-        text: 'Other',
-      },
-      {
         iconPath: './assets/icon/system.png',
         selectedIconPath: './assets/icon/system_selected.png',
         pagePath: 'pages/index/index',
         text: 'Home',
+      },
+      {
+        iconPath: './assets/icon/user.png',
+        selectedIconPath: './assets/icon/user_selected.png',
+        pagePath: 'pages/other/other',
+        text: 'Other',
       },
     ]
   },

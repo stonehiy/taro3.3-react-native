@@ -22,7 +22,7 @@ export default class Index extends Component {
 
 
   goPage = () => {
-    Taro.navigateTo({url:'/pages/other/other'})
+    Taro.navigateTo({url:'/pages/demo/demo'})
 
   }
 
